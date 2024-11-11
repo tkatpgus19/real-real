@@ -1,0 +1,117 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-v {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00c7a9;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 3vh;
+  transition: 0.5s all;
+  cursor: pointer;
+  padding: 3.5vh;
+  box-shadow: 3px 3px 2px rgb(187, 187, 187);
+}
+.button:hover {
+  background-color: #00a088;
+  transition: 0.5s all;
+}
+
+.button-s {
+  width: fit-content;
+  height: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00c7a9;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1.3vw;
+  transition: 0.5s all;
+  cursor: pointer;
+  padding: 3vh;
+  box-shadow: 3px 3px 2px rgb(187, 187, 187);
+}
+.button-s:hover {
+  background-color: #00a088;
+  transition: 0.5s all;
+}
+
+.button-m {
+  width: fit-content;
+  height: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1f15e;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1.3vw;
+  transition: 0.5s all;
+  cursor: pointer;
+  padding: 3.5vh;
+  box-shadow: 3px 3px 2px rgb(187, 187, 187);
+}
+.button-m:hover {
+  background-color: #b5c34a;
+  transition: 0.5s all;
+}
+.button-m img {
+  width: 1.5vw;
+  margin-left: 1vw;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.plain {
+  background-color: white;
+  border: 3px solid #dcdfe2;
+  box-shadow: 3px 3px 2px rgb(187, 187, 187);
+}
+
+.button-del {
+  width: 90%;
+  height: 5%;
+  margin: 2vh auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd4d4;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 2vh;
+  transition: 0.5s all;
+  cursor: pointer;
+  padding: 1vw;
+  color: black;
+  box-shadow: 3px 3px 2px rgb(187, 187, 187);
+}
+.button-del:hover {
+  background-color: #d0aaaa;
+  transition: 0.5s all;
+}

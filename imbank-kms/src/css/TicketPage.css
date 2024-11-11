@@ -1,0 +1,27 @@
+.ticket-preview {
+  border: 7px solid black;
+}
+
+.preview-ticket {
+  height: 100%;
+  width: 36vh;
+  height: 45vh;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.preset-item-preview-ticket {
+  width: 90%;
+  height: 100%;
+  margin: 2vw;
+}
+
+.preset-item-preview-ticket:hover .preset-item-preview-hover {
+  opacity: 1;
+}
+
+.ticket-btn {
+  height: 8vh;
+  margin-top: -4vh;
+  margin-bottom: 4vh;
+}

@@ -1,0 +1,125 @@
+.layout-edit-main-container-b {
+  display: grid;
+  grid-template-columns: 1.3fr 3fr 1fr;
+}
+.edit-layout-menu-grid {
+  display: grid;
+  grid-template-rows: 0.2fr 1fr 1fr;
+  gap: 1vh; /* 섹션 간격을 줄임 */
+  padding: 0 1vw;
+}
+
+.layout-palette {
+  display: grid;
+  width: 100%;
+  /* 명시적인 높이 설정 대신 grid 내부에서 자동으로 조절되도록 함 */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.2vw;
+}
+
+.layout-palette-item {
+  width: 100%;
+  height: 5vh;
+  /* 정사각형 형태를 유지하기 위한 aspect-ratio 설정 */
+  border-radius: 10px;
+  border: 1px solid #757575;
+  cursor: pointer;
+}
+
+/* 각 섹션의 컨테이너에 대한 스타일 추가 */
+.edit-layout-menu-grid > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+/* 입력 필드의 높이 조정 */
+.title-input {
+  height: 40px; /* 고정된 높이로 변경 */
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 1vw;
+}
+
+.b-left-box {
+  height: 80vh;
+  overflow: hidden;
+}
+
+.edit-btn-delete {
+  width: fit-content;
+  background-color: #ffcdcd;
+  padding: 1vh 1.7vh;
+  border-radius: 10px;
+  transition: 0.5s all;
+  cursor: pointer;
+  margin-right: 1vw;
+}
+
+.edit-btn-delete:hover {
+  background-color: #d2a5a5;
+}
+
+.edit-btn-add {
+  width: fit-content;
+  background-color: #e2f15e;
+  padding: 1vh 1.7vh;
+  border-radius: 10px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.edit-btn-add:hover {
+  background-color: #b6c14c;
+}
+
+.layout-list-container {
+  margin: 1vw 1vw 1vw 0.5vw;
+}
+
+.layout-list-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1vh; /* 아이템 간 간격 */
+  height: 71vh;
+  overflow-y: auto; /* 세로 스크롤 활성화 */
+  padding: 1vh; /* 내부 여백 */
+}
+
+.layout-list-item {
+  width: 100%;
+  height: 20vh;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-item-title {
+  width: 100%;
+  padding: 0.5vw;
+  background-color: #ccf2d9;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.layout-list-item:hover .preset-item-hover {
+  opacity: 1;
+  transition: 0.2s all;
+}
+
+.preset-item-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  opacity: 0;
+  transition: 0.2s all;
+}
+
+.edit,
+.delete {
+  cursor: pointer;
+}

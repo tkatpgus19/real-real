@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-use-select: none;
+  user-select: none;
+  font-family: 'Pretendard-Medium';
+}
+
+::-ms-reveal {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Pretendard-Medium'; /* Regular 스타일 폰트 */
+  font-weight: normal;
+  src: url('./assets/Pretendard-Medium.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold'; /* Bold 스타일 폰트 */
+  font-weight: bold;
+  src: url('./assets/Pretendard-Bold.woff') format('truetype');
+}

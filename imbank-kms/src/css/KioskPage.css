@@ -1,0 +1,48 @@
+.main-btn-list-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5vw;
+  margin: 1vw;
+}
+
+.kiosk-management-main-container {
+  display: grid;
+  height: 89vh;
+  grid-template-rows: 1fr 10fr;
+}
+
+.branch-name-f {
+  height: 100%;
+  margin: 0.5vw 1vw;
+  font-size: 1.7vw;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #666666;
+}
+
+.kiosk-main-container-b {
+  height: 100%;
+  margin: 1vw;
+}
+
+.branch-left {
+  display: flex;
+  font-size: 1.5vw;
+  align-items: center;
+  height: 100%;
+}
+
+.branch-left p {
+  height: 100%; /* 높이를 100%로 설정 */
+  display: flex; /* p 태그 내부 텍스트 중앙 정렬을 위해 */
+  align-items: center; /* 수직 중앙 정렬 */
+  border-right: 1px solid #9a9a9a;
+  font-size: 1vw;
+  padding: 0 1.6vh;
+}
+
+.branch-left img {
+  width: 2vw;
+  margin: 0 0.1vw;
+}

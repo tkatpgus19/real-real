@@ -1,0 +1,42 @@
+.dash-main-container {
+  display: grid;
+  height: 92vh;
+  grid-template-rows: auto 1fr;
+  overflow: auto;
+}
+
+.dash-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1vw;
+  padding: 1vw;
+}
+
+.dash-3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1vw;
+}
+
+.dash-2-h {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1vw;
+}
+
+.dash-2-v {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1vw;
+}
+
+.dash-3-2 {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  gap: 1vw;
+}
+
+.chart-title {
+  font-size: 1vw;
+  margin: 1vw;
+}

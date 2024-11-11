@@ -1,0 +1,28 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://database-1.ctc2e6gau08d.ap-northeast-2.rds.amazonaws.com:3306/imbank?characterEncoding=utf8mb4&useUnicode=true&serverTimezone=Asia/Seoul
+    username: root
+    password: root
+    hikari:
+      max-lifetime: 177000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: false
+        show_sql: false
+      connection:
+        characterEncoding: utf8mb4
+        useUnicode: true
+        CharSet: utf8mb4
+
+jwt:
+  secret: 'FLW3cdZkVmyX6uhOvRisarltO+qI4up8zWUyxL5GHEU'
+  token:
+    refresh-expiration-time: 6_000_000
+    access-expiration-time: 6_000_000

@@ -1,0 +1,94 @@
+header {
+  width: 100%;
+  height: 8vh;
+  border-bottom: 5px solid transparent;
+  border-image: linear-gradient(to right, #e1f15e, #00c7a9) 1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  z-index: 1;
+}
+
+header img {
+  height: 5vh;
+  margin-left: 1vw;
+}
+
+.header-items-r {
+  justify-content: end;
+}
+
+.header-items-r p {
+  font-size: 2.5vh;
+  margin-right: 3.5vw;
+  transition: 0.2s all;
+  cursor: pointer;
+  height: 6vh;
+  color: #666666;
+  font-weight: bold;
+}
+.header-items-r .h {
+  font-size: 2.5vh;
+  margin-right: 3.5vw;
+  transition: 0.2s all;
+  cursor: pointer;
+  height: 6vh;
+  color: #666666;
+  font-weight: bold;
+}
+
+.header-items-r p:hover {
+  border-bottom: 5px solid #00c7a9;
+  color: #009b84;
+  transition: 0.2s all;
+}
+
+.header-items-r div {
+  margin-right: 1vw;
+}
+
+/* 헤더 */
+@media (max-width: 768px) {
+  header {
+    grid-template-columns: 1fr;
+  }
+  header img {
+    display: none;
+  }
+  .header-items-r {
+    justify-content: center;
+  }
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  height: 7vh;
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+  margin-left: -2vw;
+}
+
+.left-section p {
+  font-size: 0.8vw;
+  pointer-events: none;
+}
+.t {
+  margin-top: 3.5vh;
+}
+.b {
+  margin-top: -3vh;
+}
+.session-btn {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  padding: 0.7vh;
+  transition: 0.2s all;
+  cursor: pointer;
+  margin-left: -3vw;
+}
+.session-btn:hover {
+  background-color: #b7b7b7;
+  transition: 0.2s all;
+}
